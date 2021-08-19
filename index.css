@@ -1,0 +1,58 @@
+.row {
+  display: flex;
+}
+.cell {
+  padding: 2px;
+  margin: 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 20px;
+  min-height: 20px;
+  background-color: grey;
+  color: grey;
+  font-weight: bold;;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.opened {
+  background-color: lightgrey;
+}
+
+.opened.cell--1 {
+  color: black;
+  background-color: red;
+}
+
+.opened.cell-1 {
+  color: blue;
+}
+
+.opened.cell-2 {
+  color: green;
+}
+
+.opened.cell-3 {
+  color: red;
+}
+
+.opened.cell-4 {
+  color: darkblue;
+}
+
+.opened.cell-5 {
+  color: darkred;
+}
+
+.opened.cell-6 {
+  color: darkcyan;
+}
+
+.opened.cell-7 {
+  color: black;
+}
+
+.opened.cell-8 {
+  color: brown;
+}

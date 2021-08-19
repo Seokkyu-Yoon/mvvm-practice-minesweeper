@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>SKYoon minesweeper</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+  </head>
+  <body>
+    <div id="header">
+      <select id="difficult" value="easy">
+        <option value="easy">쉬움</option>
+        <option value="medium">보통</option>
+        <option value="hard">어려움</option>
+        <option value="hell">지옥</option>
+      </select>
+      <input id="reset" type="button" value="초기화"/>
+      <span id="timer">0</span>
+    </div>
+    <div id="board"></div>
+
+    <script type="text/javascript" src="core/model.js"></script>
+    <script type="text/javascript" src="core/view-model.js"></script>
+    <script type="text/javascript" src="core/view.js"></script>
+
+    <script type="text/javascript" src="model/board.js"></script>
+    <script type="text/javascript" src="model/cell.js"></script>
+    <script type="text/javascript" src="model/difficult.js"></script>
+    <script type="text/javascript" src="model/timer.js"></script>
+
+    <script type="text/javascript" src="view/board.js"></script>
+    <script type="text/javascript" src="view/cell.js"></script>
+    <script type="text/javascript" src="view/difficult.js"></script>
+    <script type="text/javascript" src="view/reset.js"></script>
+    <script type="text/javascript" src="view/row.js"></script>
+    <script type="text/javascript" src="view/timer.js"></script>
+
+    <script type="text/javascript" src="view-model/board.js"></script>
+    <script type="text/javascript" src="view-model/cell.js"></script>
+    <script type="text/javascript" src="view-model/difficult.js"></script>
+    <script type="text/javascript" src="view-model/timer.js"></script>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
